@@ -149,7 +149,7 @@ Inside the MySQL shell, run:
 
 -- View some data from a table (replace table_name with actual table)
 ```bash
-   SELECT * FROM table_name
+   SELECT * FROM table_name;
 
    ```
 
