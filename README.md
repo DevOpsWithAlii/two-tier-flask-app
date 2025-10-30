@@ -115,6 +115,13 @@ docker run -d \
     flaskapp:latest
 
 ```
+## Connect to MySQL inside the Docker container
+
+
+
+
+
+
 
 ## Notes
 
