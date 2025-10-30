@@ -121,8 +121,21 @@ Use this command to open the MySQL shell:
    docker exec -it mysql mysql -u root -p
 
    ```
+Enter the password when prompted. Check your docker-compose.yml 
 
+## Explore the mess database
+Inside the MySQL shell, run:
+-- Show all databases
+SHOW DATABASES;
 
+-- Use the mess database
+USE mess;
+
+-- Show all tables
+SHOW TABLES;
+
+-- View some data from a table (replace table_name with actual table)
+SELECT * FROM table_name LIMIT 10;
 
 
 
