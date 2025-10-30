@@ -116,8 +116,11 @@ docker run -d \
 
 ```
 ## Connect to MySQL inside the Docker container
+Use this command to open the MySQL shell:
+   ```bash
+   docker exec -it mysql mysql -u root -p
 
-
+   ```
 
 
 
