@@ -126,31 +126,32 @@ Use this command to open the MySQL shell:
 ## Explore the mess database
 Inside the MySQL shell, run:
 -- Show all databases
+
 ```bash
    SHOW DATABASES;
 
-   ``
+   ```
 
 -- Use the mess database
 
 ```bash
    use mess;
 
-   ``
+   ```
 
 -- Show all tables
 
 ```bash
    SHOW tables;
 
-   ``
+   ```
 
 
 -- View some data from a table (replace table_name with actual table)
 ```bash
    SELECT * FROM table_name
 
-   ``
+   ```
 
 
 ## Notes
