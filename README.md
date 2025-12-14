@@ -44,13 +44,13 @@ Before you begin, make sure you have the following installed:
 The project includes a complete monitoring setup using **Prometheus, Grafana, cAdvisor, Node Exporter, and MySQL Exporter** to visualize application, container, and database metrics.
 
 ### 🔹 Docker & Container Monitoring
-![Docker Monitoring](https://git)
+![Docker Monitoring](https://github.com/DevOpsWithAlii/two-tier-flask-app/blob/main/templates/Screenshot%20(322).png)
 
 ### 🔹 cAdvisor – Container Resource Usage
-![cAdvisor Dashboard](screenshots/cadvisor-dashboard.png)
+![cAdvisor Dashboard](https://github.com/DevOpsWithAlii/two-tier-flask-app/blob/main/templates/Screenshot%20(326).png)
 
 ### 🔹 Application & Database Metrics
-![MySQL Metrics](screenshots/mysql-metrics.png)
+![MySQL Metrics](https://github.com/DevOpsWithAlii/two-tier-flask-app/blob/main/templates/Screenshot%20(323).png)
 
 
 
@@ -66,6 +66,7 @@ The project includes a complete monitoring setup using **Prometheus, Grafana, cA
 - If you encounter issues, check Docker logs and error messages for troubleshooting.
 
 ```
+
 
 
 
