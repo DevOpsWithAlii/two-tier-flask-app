@@ -55,17 +55,20 @@ The project includes a complete monitoring setup using **Prometheus, Grafana, cA
 
 
 
-## Notes
+## 📈 What This Dashboard Shows
 
-- Make sure to replace placeholders (e.g., `your_username`, `your_password`, `your_database`) with your actual MySQL configuration.
+- Container-level CPU & Memory usage for Flask app, MySQL, Redis, Prometheus, Grafana
 
-- This is a basic setup for demonstration purposes. In a production environment, you should follow best practices for security and performance.
+- Real-time resource consumption using cAdvisor
 
-- Be cautious when executing SQL queries directly. Validate and sanitize user inputs to prevent vulnerabilities like SQL injection.
+- MySQL database performance metrics (connections, memory usage)
 
-- If you encounter issues, check Docker logs and error messages for troubleshooting.
+- Infrastructure metrics via Node Exporter
+
+- Centralized visualization using Grafana with Prometheus as data source
 
 ```
+
 
 
 
