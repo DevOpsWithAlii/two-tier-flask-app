@@ -67,7 +67,19 @@ The project includes a complete monitoring setup using **Prometheus, Grafana, cA
 
 - Centralized visualization using Grafana with Prometheus as data source
 
+## Monitoring Stack
+- Prometheus – Metrics collection and storage
+
+- Grafana – Visualization and dashboards
+
+- cAdvisor – Docker container metrics
+
+- Node Exporter – VM / EC2 system metrics
+
+- MySQL Exporter – Database-level metrics
+
 ```
+
 
 
 
