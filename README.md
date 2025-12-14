@@ -79,9 +79,3 @@ The project includes a complete monitoring setup using **Prometheus, Grafana, cA
 - MySQL Exporter – Database-level metrics
 
 ```
-
-
-
-
-
-
