@@ -17,7 +17,7 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-# Install runtime dependencies only
+# Install runtime dependencies only 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends libmariadb3 && \
     rm -rf /var/lib/apt/lists/*
