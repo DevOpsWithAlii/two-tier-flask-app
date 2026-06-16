@@ -64,7 +64,7 @@ The project includes a complete monitoring setup using **Prometheus, Grafana, cA
 
 - MySQL database performance metrics (connections, memory usage)
 
-- Infrastructure metrics via Node Exporter
+- Infrastructure metrics via Node Exporter 
 
 - Centralized visualization using Grafana with Prometheus as data source
 
