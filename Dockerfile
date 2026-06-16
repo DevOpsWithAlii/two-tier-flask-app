@@ -14,7 +14,7 @@ RUN apt-get update \
 COPY requirements.txt .
 
 # Install app dependencies
-RUN pip install mysqlclient
+RUN pip install mysqlclient 
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code
